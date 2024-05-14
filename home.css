@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+body{
+    background-image: url(bac2.jpg);
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+        display: flex;
+        justify-content: right;
+        background-color: #FFF455;
+}
+
+li{
+    padding: 19px;
+    border-right:1px solid #bbb;
+}
+
+li a{
+    font-size: larger;
+    padding: 20px;
+    color: #007F73;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #007F73;
+    color: #FFF455;
+}
+
+li a:active{
+    background-color: #007F73;
+    color: #FFF455;
+}
+
